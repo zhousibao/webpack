@@ -1,0 +1,10 @@
+html{
+  background: red;
+}
+
+.box{
+  composes: big from './common.css';
+  width: 200px;
+  height: 200px;
+  background: #ccc;
+}
