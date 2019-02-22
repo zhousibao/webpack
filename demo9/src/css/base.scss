@@ -1,0 +1,12 @@
+$color: red;
+
+html{
+  background:$color;
+}
+
+.box{
+  composes: big from './common.scss';
+  width: 200px;
+  height: 200px;
+  background: #ccc;
+}
