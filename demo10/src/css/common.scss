@@ -1,0 +1,17 @@
+
+body{
+  font-size: 16px;
+
+  .big{
+    border: 1px solid #000;
+  }
+}
+
+:root {
+  --mainColor: red;
+}
+
+a{
+  color: var(--mainColor)
+}
+
