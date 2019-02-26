@@ -1,0 +1,29 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.bigBox{
+  display: block;
+  background: #ccc;
+
+  div{
+    width: 200px;
+    height: 200px;
+    float: left;
+  }
+
+  .img1{
+    background: url('../assets/imgs/1.jpg') no-repeat;
+  }
+  .img2{
+    background: url('../assets/imgs/2.jpg') no-repeat;
+  }
+  .img3{
+    background: url('../assets/imgs/3.jpeg') no-repeat;
+  }
+  .img4{
+    background: url('../assets/imgs/4.png') no-repeat;
+  }
+}
