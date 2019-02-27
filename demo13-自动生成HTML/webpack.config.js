@@ -43,6 +43,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: 'index.html', //默认即为index.html
       template: './index.html',
+      chunks: ["app"], // entry中的app入口才会被打包入index.html
       minify: { //压缩生成的html
         collapseWhitespace: true
       }
